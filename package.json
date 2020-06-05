@@ -1,0 +1,23 @@
+{
+  "name": "learning-road",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enzo-bv/learningRoad.git"
+  },
+  "keywords": [
+    "learning",
+    "road"
+  ],
+  "author": "Vincenzo Bonelli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/enzo-bv/learningRoad/issues"
+  },
+  "homepage": "https://github.com/enzo-bv/learningRoad#readme"
+}
