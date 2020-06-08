@@ -24,6 +24,7 @@
   "homepage": "https://github.com/enzo-bv/learningRoad#readme",
   "devDependencies": {
     "cssnano": "^4.1.10",
+    "gh-pages": "^3.0.0",
     "sass": "^1.26.8"
   }
 }
