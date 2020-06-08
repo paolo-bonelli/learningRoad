@@ -1,0 +1,70 @@
+form[action$="register-form"] {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+form[action$="register-form"] > * {
+  box-sizing: border-box;
+  width: 48%;
+  margin: 10px 1%;
+}
+
+form[action$="register-form"] > input {
+  border-width: 0px;
+  background-color: lightgray;
+  border-radius: 5px;
+  height: 3em;
+}
+
+form[action$="register-form"] > label {
+  text-align: right;
+}
+form[action$="register-form"] > hr {
+  width: 98%;
+  border-width: 0px;
+}
+
+input[type="submit"] {
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 1px;
+  background-color: darkorange !important;
+}
+
+form[action$="choose-weapon"] {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 70%;
+}
+
+form[action$="choose-weapon"] > h3 {
+  width: 100%;
+  text-align: center;
+}
+
+form[action$="choose-weapon"] > input {
+  width: 100px;
+  object-fit: contain;
+  margin: 20px 0px;
+  box-sizing: border-box;
+}
+
+input[type="image"]:hover {
+  filter: drop-shadow(0px 0px 5px steelblue);
+  -webkit-filter: drop-shadow(0px 0px 5px steelblue);
+}
+
+@media (max-width: 600px) {
+  form[action$="register-form"] {
+    width: 100%;
+  }
+}
+
+
+/*# sourceMappingURL=/login-forms.7bffea0b.css.map */
