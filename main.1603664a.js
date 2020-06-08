@@ -117,16 +117,12 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"src/css/main.scss":[function(require,module,exports) {
+})({"src/css/main.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../../../../home/paolo/.nvm/versions/node/v12.17.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"src/js/main.js":[function(require,module,exports) {
-"use strict";
-
-require("./../css/main.scss");
-},{"./../css/main.scss":"src/css/main.scss"}],"../../../../../../../home/paolo/.nvm/versions/node/v12.17.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"_css_loader":"../../../../../../../home/paolo/.nvm/versions/node/v12.17.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../../../../home/paolo/.nvm/versions/node/v12.17.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -154,7 +150,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51017" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54577" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -468,6 +464,6 @@ module.exports = function loadJSBundle(bundle) {
   });
 };
 },{}],0:[function(require,module,exports) {
-var b=require("../../../../../../../home/paolo/.nvm/versions/node/v12.17.0/lib/node_modules/parcel-bundler/src/builtins/bundle-loader.js");b.register("js",require("../../../../../../../home/paolo/.nvm/versions/node/v12.17.0/lib/node_modules/parcel-bundler/src/builtins/loaders/browser/js-loader.js"));b.load([]).then(function(){require("src/js/main.js");});
+var b=require("../../../../../../../home/paolo/.nvm/versions/node/v12.17.0/lib/node_modules/parcel-bundler/src/builtins/bundle-loader.js");b.register("js",require("../../../../../../../home/paolo/.nvm/versions/node/v12.17.0/lib/node_modules/parcel-bundler/src/builtins/loaders/browser/js-loader.js"));b.load([]);
 },{}]},{},["../../../../../../../home/paolo/.nvm/versions/node/v12.17.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js",0], null)
-//# sourceMappingURL=/main.c48f6146.js.map
+//# sourceMappingURL=/main.1603664a.js.map
