@@ -109,7 +109,7 @@
     </div>
     <hr />
     <div class="container">
-      <form action="./register-form">
+      <form action="./register-form" method="POST">
         <label for="first-name">First name:</label>
         <input type="text" name="first-name" required />
         <label for="last-name">Last name:</label>
@@ -157,5 +157,11 @@
       </form>
     </div>
     <hr />
+    <div id="search-pratice" class="container">
+      <form action="./search" method="post">
+        <label for="search-bar">Search:</label>
+        <input type="search" name="search-bar" id="search-bar" placeholder="find your catch..." />
+      </form>
+    </div>
   </body>
 </html>
