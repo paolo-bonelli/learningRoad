@@ -1,4 +1,4 @@
-form[action$="register-form"] {
+form[action="./register-form"] {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -7,23 +7,23 @@ form[action$="register-form"] {
   width: 60%;
 }
 
-form[action$="register-form"] > * {
+form[action="./register-form"] > * {
   box-sizing: border-box;
   width: 48%;
   margin: 10px 1%;
 }
 
-form[action$="register-form"] > input {
+form[action="./register-form"] > input {
   border-width: 0px;
   background-color: lightgray;
   border-radius: 5px;
   height: 3em;
 }
 
-form[action$="register-form"] > label {
+form[action="./register-form"] > label {
   text-align: right;
 }
-form[action$="register-form"] > hr {
+form[action="./register-form"] > hr {
   width: 98%;
   border-width: 0px;
 }
@@ -35,7 +35,7 @@ input[type="submit"] {
   background-color: darkorange !important;
 }
 
-form[action$="choose-weapon"] {
+form[action="./choose-weapon"] {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -43,12 +43,12 @@ form[action$="choose-weapon"] {
   width: 70%;
 }
 
-form[action$="choose-weapon"] > h3 {
+form[action="./choose-weapon"] > h3 {
   width: 100%;
   text-align: center;
 }
 
-form[action$="choose-weapon"] > input {
+form[action="./choose-weapon"] > input {
   width: 100px;
   object-fit: contain;
   margin: 20px 0px;
@@ -60,10 +60,10 @@ input[type="image"]:hover {
   -webkit-filter: drop-shadow(0px 0px 5px steelblue);
 }
 
-form[action$="search"] > input {
+form[action="./search"] > input {
   border-width: 0px;
   background-color: lightgray;
-  border-radius: 5px;
+  border-radius: 1.5em;
   height: 3em;
   padding: 5px 8px;
 }
@@ -75,4 +75,4 @@ form[action$="search"] > input {
 }
 
 
-/*# sourceMappingURL=/login-forms.7bffea0b.css.map */
+/*# sourceMappingURL=/forms.509b39c3.css.map */

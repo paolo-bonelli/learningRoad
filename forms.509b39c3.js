@@ -117,7 +117,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"src/css/login-forms.css":[function(require,module,exports) {
+})({"src/css/forms.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -150,7 +150,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50059" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50207" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -466,4 +466,4 @@ module.exports = function loadJSBundle(bundle) {
 },{}],0:[function(require,module,exports) {
 var b=require("../../../../../../../home/paolo/.nvm/versions/node/v12.17.0/lib/node_modules/parcel-bundler/src/builtins/bundle-loader.js");b.register("js",require("../../../../../../../home/paolo/.nvm/versions/node/v12.17.0/lib/node_modules/parcel-bundler/src/builtins/loaders/browser/js-loader.js"));b.load([]);
 },{}]},{},["../../../../../../../home/paolo/.nvm/versions/node/v12.17.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js",0], null)
-//# sourceMappingURL=/login-forms.7bffea0b.js.map
+//# sourceMappingURL=/forms.509b39c3.js.map
